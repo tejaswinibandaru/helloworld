@@ -1,0 +1,20 @@
+{
+    'manifest_version':2,
+    'name':"URL launcher",
+    'description':"Opens your favourite links in a click",
+    'icons':{
+        '16':"",
+        '48':"",
+        '128':""
+    },
+    'browser_action':{
+        'default_icon':"",
+        'default_popup':"popup.html",
+        'default_title':"Webpage Launcher",
+    },
+    'permissions':["tabs"],
+    'background':{
+        'scripts':["background.js"],
+        'persistent':false
+    }
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>jQuery Get Current Page URL</title>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("button").click(function(){
+            var pageURL = $(location).attr("href");
+            alert(pageURL);
+        });
+    });
+</script>
+</head>
+<body>
+    <button type="button">Get URL</button>
+</body>
+</html>
